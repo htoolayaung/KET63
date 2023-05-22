@@ -28,14 +28,26 @@ p {
 	padding: 10px 20px;
 	cursor: pointer;
 }
+.redirect-button2{
+	font-size: 24px;
+	background-color: #8A2BE2;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
 
 #redirect-button:hover {
+	background-color: #6A5ACD;
+}
+.redirect-button2:hover {
 	background-color: #6A5ACD;
 }
 
 .anime-container {
 	position: fixed;
-	top: 70%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
